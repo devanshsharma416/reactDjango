@@ -47,7 +47,12 @@ export default function Login() {
                 <input type = "password" className = "form-control" id = "password" placeholder = "Please Enter Your Password" value = {password} onChange = {e => setPassword(e.target.value)}></input>
             </div>
 
-            <button onClick = {loginBtn} className = "btn btn-primary">Login</button>
+            <button onClick = {loginBtn} className = "btn btn-primary">Login</button> 
+
+            <br/>
+            <br/>
+            
+            <p>If You Don't Have an Account Please <a href = "http://localhost:3000/register">Register</a></p>
 
         </div>
 
