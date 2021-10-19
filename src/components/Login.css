@@ -4,6 +4,10 @@
     border-bottom:1px solid #e74c3c;	
    }
 
+.nav-link{
+  float: right;
+}
+
 .input-container{
 	position:relative;
 	margin-bottom:25px;
@@ -30,4 +34,24 @@
  border:none;	
  outline:none;
  border-bottom:1px solid #e74c3c;	
+}
+
+.New {
+  background-color: rgb(95, 211, 219);
+}
+form {
+  background-color: bisque;
+}
+
+.form-label {
+  font-size: 16px;
+  
+}
+
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
 }

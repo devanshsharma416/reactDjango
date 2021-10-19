@@ -4,7 +4,7 @@ import './Login.css'
 
 export default function Navbar() {
     return (
-        <>  <nav className="navbar navbar-expand-lg navbar-light bg-dark ">
+        <>  <nav className="navbar navbar-expand-lg navbar-light bg-dark" expand = "lg">
                 <NavLink className = "nav-link" to = '/'>Topics</NavLink>
                 <NavLink className = "nav-link" to = '/login'>Login</NavLink>
                 <NavLink className = "nav-link" to = '/register'>Register</NavLink>    
